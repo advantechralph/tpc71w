@@ -34,4 +34,5 @@ export usage_info
 usage help: 
 	@echo "$${usage_info}"
 
+default: usage;
 
