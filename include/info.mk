@@ -5,4 +5,6 @@ info:
 	@echo builddir=$(builddir)
 	@echo bspname=$(bspname)
 	@echo logo=$(logo)
+	@echo dtb=$(dtb)
+	@echo spl=$(spl)
 
