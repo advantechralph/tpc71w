@@ -15,22 +15,27 @@ $(call bar)
 $(call title)
 $(call bar)
 
-Create BSP: 
-
-  $$ make bsp
-
-  or 
-
-  $$ make modelname=tpc71wn10pa_soreel bsp
-
-  or 
-
-  $$ make modelname=tpc71wn21pa bsp
+  Create BSP: 
+  
+    $$ make bsp
+  
+    or 
+  
+    $$ make modelname=tpc71wn10pa_soreel bsp
+  
+    or 
+  
+    $$ make modelname=tpc71wn21pa bsp
 
 
   Supported Model Name: 
 
     tpc71wn10pa, tpc71wn21pa, tpc71wn10pa_soreel, tpc71wn21pa_soreel
+
+  Check information: 
+
+    ex: 
+      make info modelname=tpc71wn21pa_soreel
 
 endef
 
