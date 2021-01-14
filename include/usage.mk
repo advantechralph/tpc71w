@@ -27,6 +27,11 @@ Create BSP:
 
   $$ make modelname=tpc71wn21pa bsp
 
+
+  Supported Model Name: 
+
+    tpc71wn10pa, tpc71wn21pa, tpc71wn10pa_soreel, tpc71wn21pa_soreel
+
 endef
 
 export usage_info

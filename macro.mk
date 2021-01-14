@@ -16,7 +16,7 @@ define releaseinfo
 $(shell date +"%Y%m%d%H%M%S")
 uboot:2016.03
 kernel:4.1.15
-rootfs:ubunu16044
+rootfs:ubuntu16044
 version:$(modelname) r1
 endef
 export releaseinfo
