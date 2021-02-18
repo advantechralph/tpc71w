@@ -30,7 +30,7 @@ $(call bar)
 
   Supported Model Name: 
 
-    tpc71wn10pa, tpc71wn21pa, tpc71wn10pa_soreel, tpc71wn21pa_soreel
+    $(shell echo $(shell find models -mindepth 1 -maxdepth 1 -name "*.mk" -printf "%P\n" | sed -e "s/\.mk *$$//g") | sed "s/ /, /g")
 
   Check information: 
 
