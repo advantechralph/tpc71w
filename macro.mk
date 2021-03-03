@@ -28,5 +28,5 @@ logdir:=$(builddir)/log
 ############################
 #          docker          #
 ############################
-repo:=advantechralph/work:tpc71w
+repo:=advantechtsu/work:tpc71w
 container:=$(modelname)_bsp
